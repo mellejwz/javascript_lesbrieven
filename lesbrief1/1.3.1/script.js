@@ -1,0 +1,1 @@
+document.getElementById('optellen').innerHTML=1+2;
