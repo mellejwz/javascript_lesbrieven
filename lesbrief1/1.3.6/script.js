@@ -18,9 +18,7 @@ var boek4 = {
 	auteur : 'Chris Pine',
 	ISBN : '9781934356364'
 };
-var x=0;
-for (var i = 0; i < 4; i++) {
-	x++;
-	var boek='boek'+x;
-	document.getElementById('iets').innerHTML+=;
+var boeken=[boek1, boek2, boek3, boek4];
+for (var i = 0; i < boeken.length; i++) {
+	document.getElementById('iets').innerHTML+=boeken[i].titel+' door '+boeken[i].auteur+'<br />'+boeken[i].ISBN+'<br /><br />';
 }
