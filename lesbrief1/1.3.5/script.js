@@ -1,7 +1,5 @@
-var string = "hippopotomonstrosesquippedaliofobie";
+var crazyString = "hippopotomonstrosesquippedaliofobie".split("");
 var capital = [true, false];
-var crazyString = string.split("");
-
 for(i=0;i<crazyString.length;i++){
 	if (capital[Math.round(Math.random())] == true){
 		crazyString[i] = crazyString[i].toUpperCase();
